@@ -1,0 +1,178 @@
+#chatpage {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items:flex-start;
+    overflow: hidden;
+}
+
+.matchmeheader {
+    font-family: 'Karla';
+    text-align: center;
+    font-size:200%;
+}
+
+body {
+    background-color: #8EE4AF
+    
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.message-container {
+    margin-left: 20px;
+    padding-bottom: 25px;
+    background-color: #FFFFFF;
+    height: 80%;
+    width: 60%;
+    /* max-width: 100%; */
+    border-width: 20px;
+    border-color: #379683;
+    border-radius:40px;
+    overflow: auto;
+    position: fixed;
+    left: 2px;
+    display:inline-block;
+
+    
+    /* box-sizing: border-box; */
+} 
+
+.chat-form-container {
+    display: inline-flex;
+    height: 70px;
+    width: 100%;
+    overflow: hidden;
+    /* flex: 1;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    padding: 15px;
+    width: 90%;
+    background-color: #EDF5E1;
+    border-style: solid;
+    border-radius: 0px 0px 40px 40px;
+    border-width: 10px;
+    border-color: #379683;
+    font-size: 25px;
+    overflow:hidden;
+    --webkit-box-sizing: content-box;
+    outline: none!important;
+    float: left; */
+   
+}
+
+#chat-form{
+    display:flex;
+    justify-content: space-between;
+    font-size: 20px;
+    height: 80px;
+    width: 100%;
+    border: #379683 solid 10px;
+    border-radius: 0px 0px 40px 40px;
+    background-color:#EDF5E1;
+    position: absolute;
+    bottom: 0px;
+    box-sizing: border-box;
+    
+    
+}
+/* .chat-form-container input[type='text'] {
+    display: flex;
+    flex: 1;
+    border-radius: 0px 0px 40px 40px;
+    bottom: 0px;
+    font-size: 20px;
+    overflow: hidden;
+    word-wrap: break-word;
+} */
+
+textarea {
+    display: flex;
+    flex: 1;
+    border: transparent;
+    border-radius: 0px 0px 40px 40px;
+    bottom: 0px;
+    font-size: 20px;
+}
+
+textarea::placeholder{
+    position: fixed;
+    font-size: 22px;
+    text-align: left;
+    transform: translateX(2px) translateY(-1px);
+}
+
+/* textarea:focus::placeholder{
+    color: transparent;
+} */
+
+#message {
+    border: #EDF5E1;
+    border-radius: 0px 0px 40px 40px;
+    background-color: #EDF5E1;
+    font-size: 20px;
+    overflow-y: scroll;
+    --webkit-box-sizing: content-box;
+    outline: none!important;
+    padding-top: 18px;
+    padding-left: 25px;
+}
+
+button {
+    border: none;
+    border-radius: 0;
+    padding: none;
+    background: none;
+    outline: none!important;
+}
+
+button img {
+    padding: none;
+    margin: none;
+    border-radius: 0;
+    background: transparent;
+    height: 50px;
+    width: auto;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+.new-match button {
+    background-color: #05386B;
+    position:absolute;
+    right: 10%;
+    border: none;
+    color: #8EE4AF;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Karla';
+    font-size: 25px;
+    text-align: center;
+    margin-top: 680px;
+    margin-left: 200px;
+    outline: none!important;
+    
+}
+
+.new-match button:hover {
+    background-color: #EDF5E1;
+}
+
+
+
+

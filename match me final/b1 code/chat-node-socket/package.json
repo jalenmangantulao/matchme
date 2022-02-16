@@ -1,0 +1,17 @@
+{
+  "name": "chat-node-socket",
+  "version": "1.0.0",
+  "description": "1. Clone the repository ``git clone https://github.com/ahng1996/chat-matchmaking.git``\r 2. Make sure you are in the chat-node-socket directory -- you can you \"cd chat-node-socket\" to get there\r 3. Initialize with package.json using \"npm init --yes\"\r 4. Install dependencies using \"npm i -S express socket.io\"\r 5. Run Match Me by using \"node index.js\"\r 6. Open a browser and type in \"localhost:3000\" -- will open port 3000, can change in index.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.3.2"
+  },
+  "devDependencies": {}
+}

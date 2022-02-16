@@ -1,0 +1,144 @@
+#chatpage {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.matchmeheader {
+    font-family: 'Karla';
+    text-align: center;
+    font-size:200%;
+}
+
+body {
+    background-color: #8EE4AF
+}
+
+.message-container {
+    display: inline-block;
+    margin: 0 auto;
+    padding-bottom: 25px;
+    background-color: #FFFFFF;
+    height: 600px;
+    width: 800px;
+    max-width: 100%;
+    border-width: 20px;
+    border-color: #379683;
+    border-radius:40px;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.send-chat-box {
+    flex: 1;
+    height:fit-content;
+    display:inline-block;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    padding: 15px;
+    background-color: #EDF5E1;
+    border-style: solid;
+    border-radius: 0px 0px 40px 40px;
+    border-width: 15px;
+    border-color: #379683;
+    font-size: 25px;
+    overflow-y: scroll;
+    /* --webkit-box-sizing: content-box; */
+    outline: none!important;
+}
+
+#message-input {
+    background-color: #EDF5E1;
+    border-style: none;
+    font-size: 25px;
+    overflow-y: scroll;
+    --webkit-box-sizing: content-box;
+    outline: none!important;
+}
+
+#send-button {
+    background-color: transparent;
+    border-color:#05386B;
+    padding: 9px;
+    border-width: 0.5vh;
+    border-right: 1px;
+    border-top: 1px;
+    
+    transform: rotate(230deg);
+    height: 5px;
+    width: 5px;
+    float: right;
+    outline: none!important;
+    
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+.new-match button {
+    background-color: #05386B;
+    display: inline-block;
+    border: none;
+    color: #8EE4AF;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Karla';
+    font-size: 20px;
+    text-align: center;
+    margin-top: 500px;
+    margin-left: 200px;
+    outline: none!important;
+    
+}
+
+.new-match button:hover {
+    background-color: #EDF5E1;
+}
+
+.column-left {
+    width: 90%;
+}
+
+.column-right {
+    width: 30%;
+}
+/* .column {
+    float: left;
+}
+
+.left {
+    width: 60%;
+}
+
+.right {
+    width: 40%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+} */
+
+/* 
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+    border-color: #FFFFFF;
+    border-width: 50px;
+    border-top: 100px;
+
+
+} */
+
+
+

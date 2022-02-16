@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Match Me!</title>
+        <link rel="stylesheet" href="/public/css/style.css">
+    </head>
+    <body>
+        <h1 class="matchmeheader">Chat with your Match!</h1> 
+        <div class="main-container">
+            <div class="message-container">
+                    <div class="user-picture"></div>
+                    <div class ="chat-window"></div>
+                    <form class="chat-form">
+                        <input type="text" class="chat-input" placeholder="Send a chat"/>
+                        <button type="submit" class="chat-submit" value="enter"><img src="arrow-transparent.png" alt="send arrow button"></button>
+                    </form>
+            </div>
+
+            <div class=new-match>
+                <button type="button">Match Me! &#8594</button>
+            </div>
+        </div>
+
+        <div class="player">
+            <iframe src="https://open.spotify.com/embed/playlist/0STGRw2ea2tkDTbcAVGeGD" title="spotify-embed" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/public/js/script.js"></script>
+
+    </body>
+
+</html>
