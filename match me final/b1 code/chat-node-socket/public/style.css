@@ -154,6 +154,12 @@ body {
 .chat-input::-webkit-scrollbar {
     display: none;
 }
+
+.render-message {
+    padding: 5px;
+    background: #EDF5E1;
+
+}
 /* textarea:focus::placeholder{
     color: transparent;
 } */
@@ -250,7 +256,6 @@ button img {
 .new-match button:hover {
     background-color: #EDF5E1;
 }
-
 
 
 
