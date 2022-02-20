@@ -1,9 +1,9 @@
 # Match Me
 
-# Do if you don't already have npm/nodejs
-1. sudo apt-get update
-2. sudo apt-get upgrade
-3. sudo apt-get install npm
+## Do if you don't already have npm/nodejs
+1. `sudo apt-get update`
+2. `sudo apt-get upgrade`
+3. `sudo apt-get install npm`
 
 ## Instructions (local hosting)
 1. Clone the repository ``git clone https://github.com/ahng1996/chat-matchmaking.git``
