@@ -1,5 +1,5 @@
 const socket = io();
-
+// client side ?
 const chat = document.querySelector('.chat-form')
 const Input = document.querySelector('.chat-input')
 
@@ -11,6 +11,7 @@ chat.addEventListener('submit', event => {
 
 const chatWindow = document.querySelector('.chat-window')
 
+
 const renderMessage = message => {
     const div = document.createElement('div')
     div.classList.add('render-message')
@@ -21,6 +22,18 @@ const renderMessage = message => {
 socket.on('chat', message => {
     renderMessage(message)
 })
+
+// const renderMessage2 = message => {
+//     const div = document.createElement('div')
+//     div.classList.add('render-message2')
+//     div.innerText = message
+//     chatWindow.appendChild(div)
+// }
+
+// socket.on('chat', message => {
+//     renderMessage1(message)
+// })
+
 
 
 

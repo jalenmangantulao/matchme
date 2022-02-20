@@ -155,10 +155,23 @@ body {
     display: none;
 }
 
+/* div class "render-message created from script.js*/
 .render-message {
-    padding: 5px;
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background: #EDF5E1;
 }
+
+/* 2nd user connection messages */
+/* .render-message2 {
+    padding: 10px;
+    background: #379683;
+} */
+
+
+
 /* textarea:focus::placeholder{
     color: transparent;
 } */
