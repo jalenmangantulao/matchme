@@ -10,7 +10,7 @@ There are too many issues with this app right now check back in later lol
 2. `sudo apt-get upgrade`
 3. `sudo apt-get install npm`
 
-## Instructions (local hosting)
+## Instructions (to run locally)
 1. Clone the repository ``git clone https://github.com/ahng1996/chat-matchmaking.git``
 2. Make sure you are in the **chat-node-socket directory** -- you can you `cd /YOUR_PATH/chat-node-socket` to get there
 3. Initialize with package.json using `npm init --yes`
