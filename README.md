@@ -12,7 +12,7 @@ There are too many issues with this app right now check back in later lol
 
 ## Instructions (to run locally)
 1. Clone the repository ``git clone https://github.com/ahng1996/chat-matchmaking.git``
-2. Make sure you are in the **chat-node-socket directory** -- you can you `cd /YOUR_PATH/chat-node-socket` to get there
+2. Make sure you are in the **chat-node-socket directory** -- you can do `cd /YOUR_PATH/chat-node-socket` to get there
 3. Initialize with package.json using `npm init --yes`
 4. Install dependencies running the command `./dependencies.sh`
 5. Run Match Me by using `node index.js`
